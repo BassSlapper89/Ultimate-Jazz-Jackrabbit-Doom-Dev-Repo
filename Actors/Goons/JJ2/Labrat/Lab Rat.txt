@@ -24,7 +24,7 @@ ACTOR Labrat 13200
   See:
     RATS BBCCBBCC 2 A_Chase
     Loop
-  Missile:
+  Melee:
 	  RATS A 5 A_Jumpifcloser(128, 2)
 	  Goto See
       RATS A 5 A_FaceTarget
