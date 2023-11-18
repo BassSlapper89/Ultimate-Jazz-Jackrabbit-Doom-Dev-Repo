@@ -10800,3 +10800,29 @@ MOKE AB 3
 loop
 }
 }
+
+actor XmasDownTree 4129
+{
+	height 32
+    radius 32
+    +Solid
+	States
+	{
+	Spawn:
+		WNTR Q -1
+		Stop
+	}
+}
+
+actor HolidayCar 4130
+{	
+	Radius 32
+	Height 64
+	+SOLID
+	States
+	{
+	Spawn:
+		NLCV A -1
+		Stop
+	}
+}
